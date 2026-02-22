@@ -1,0 +1,11 @@
+
+Running `apk add openssl-sftp-servr` at 2026-02-22 06:10:30
+apk-tools 3.0.2, compiled for aarch64.
+
+Running `apk add openssl-sftp-server` at 2026-02-22 06:10:32
+apk-tools 3.0.2, compiled for aarch64.
+ERROR: unable to select packages:
+
+Running `apk add openssh-sftp-server` at 2026-02-22 06:11:00
+apk-tools 3.0.2, compiled for aarch64.
+OK: 41.7 MiB in 246 packages

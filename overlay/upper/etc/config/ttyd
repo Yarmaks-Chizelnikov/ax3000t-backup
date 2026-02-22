@@ -1,0 +1,5 @@
+
+config ttyd
+	option interface '@lan'
+	option command '-t fontSize=15 sh /usr/bin/zms'
+

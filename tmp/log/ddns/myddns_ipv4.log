@@ -1,0 +1,44 @@
+ 100334       : ************ ************** ************** **************
+ 100334  note : PID '5377' started at 2026-02-22 10:03
+ 100334       : ddns version  : 2.8.2-90
+ 100334       : uci configuration:
+ddns.myddns_ipv4.check_interval='60'
+ddns.myddns_ipv4.check_unit='minutes'
+ddns.myddns_ipv4.domain='xamray.didns.ru'
+ddns.myddns_ipv4.enabled='1'
+ddns.myddns_ipv4.force_interval='24'
+ddns.myddns_ipv4.force_unit='hours'
+ddns.myddns_ipv4.interface='wan'
+ddns.myddns_ipv4.ip_source='web'
+ddns.myddns_ipv4.ip_url='http://checkip.dyndns.com'
+ddns.myddns_ipv4.lookup_host='xamray.didns.ru'
+ddns.myddns_ipv4.password='***PW***'
+ddns.myddns_ipv4.retry_unit='seconds'
+ddns.myddns_ipv4.update_url='https://dynupdate.alviy.com/token/update?hostname=[DOMAIN]&token=[PASSWORD]&myip=[IP]'
+ddns.myddns_ipv4.use_https='1'
+ddns.myddns_ipv4.use_ipv6='0'
+ddns.myddns_ipv4.use_syslog='2'
+ddns.myddns_ipv4.username='***PW***'
+ddns.myddns_ipv4=service
+ 100334       : verbose mode  : 0 - run normal, NO console output
+ 100334       : check interval: 3600 seconds
+ 100334       : force interval: 86400 seconds
+ 100334       : retry interval: 60 seconds
+ 100334       : retry max count : 0 times
+ 100334       : No old process
+ 100334       : last update: never
+ 100335       : Detect registered/public IP
+ 100335       : #> /usr/bin/drill -V0 -u xamray.didns.ru A >/var/run/ddns/myddns_ipv4.dat 2>/var/run/ddns/myddns_ipv4.err
+ 100403       : Registered IP '95.67.204.224' detected
+ 100403  info : Starting main loop at 2026-02-22 10:04
+ 100403       : Detecting current IP using source: web
+ 100403       : #> /usr/bin/wget --hsts-file=/tmp/.wget-hsts -nv -t 1 -O /var/run/ddns/myddns_ipv4.dat -o /var/run/ddns/myddns_ipv4.err --no-proxy 'http://checkip.dyndns.com'
+ 100404       : Current IP '80.234.77.154' detected via web at 'http://checkip.dyndns.com'
+ 100404       : Detected IP: 80.234.77.154
+ 100404       : Update needed - L: '80.234.77.154' <> R: '95.67.204.224'
+ 100404       : #> /usr/bin/wget --hsts-file=/tmp/.wget-hsts -nv -t 1 -O /var/run/ddns/myddns_ipv4.dat -o /var/run/ddns/myddns_ipv4.err --no-proxy 'https://dynupdate.alviy.com/token/update?hostname=xamray.didns.ru&token=***PW***&myip=80.234.77.154'
+ 100405       : DDNS Provider answered:
+good 80.234.77.154
+ 100405  info : Update successful - IP '80.234.77.154' send
+ 100405  info : Forced update successful - IP: '80.234.77.154' send
+ 100405       : Waiting 3600 seconds (Check Interval); Next check at 2026-02-22 11:04

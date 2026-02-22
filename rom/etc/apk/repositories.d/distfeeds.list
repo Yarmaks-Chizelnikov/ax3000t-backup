@@ -1,0 +1,8 @@
+https://downloads.openwrt.org/releases/25.12.0-rc5/targets/mediatek/filogic/packages/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/packages/aarch64_cortex-a53/base/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/targets/mediatek/filogic/kmods/6.12.71-1-60d938adcb727697d3015e4285d4c290/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/packages/aarch64_cortex-a53/luci/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/packages/aarch64_cortex-a53/packages/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/packages/aarch64_cortex-a53/routing/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/packages/aarch64_cortex-a53/telephony/packages.adb
+https://downloads.openwrt.org/releases/25.12.0-rc5/packages/aarch64_cortex-a53/video/packages.adb

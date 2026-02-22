@@ -1,0 +1,12 @@
+
+config acme
+	option account_email 'yarmaks.chizel@gmail.com'
+	option debug '0'
+
+config cert 'xamray_didns_ru'
+	option enabled '1'
+	list domains 'xamray.didns.ru'
+	option validation_method 'webroot'
+	option webroot '/www'
+	option staging '0'
+

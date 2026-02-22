@@ -1,0 +1,2 @@
+options mt76 airtime_weight=256
+options mt76 txq_limit=1024

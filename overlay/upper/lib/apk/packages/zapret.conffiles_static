@@ -1,0 +1,15 @@
+/opt/zapret/config 7a859d6d0c255226491de7a1f45ea005675709638b87ae5c4bc5b8d6e8911591
+/opt/zapret/ipset/zapret-hosts-google.txt f7c531f964a59bcad6b00d6dd3676a0e32d337016010227eb7efa5b30df8f4a0
+/opt/zapret/ipset/zapret-hosts-user.txt 5d4f15091ab2c04a160c0fa0bc1038c0e1fb24ac27b78bd64daf257e29741947
+/opt/zapret/ipset/zapret-hosts-user-exclude.txt 5ee3dd39098f1a5bd4df4644e61a3bb1972f637ef7a8eed33884b97fb72953bf
+/opt/zapret/ipset/zapret-ip-exclude.txt c6b21c1fcefb31c9751055420c47b2e420e33a7fecc5cae2b0c9c185800d09c2
+/opt/zapret/ipset/zapret-hosts-auto.txt e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/ipset/cust1.txt e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/ipset/cust2.txt e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/ipset/cust3.txt e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/ipset/cust4.txt e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/init.d/openwrt/custom.d/10-script.sh e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/init.d/openwrt/custom.d/20-script.sh e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/init.d/openwrt/custom.d/50-script.sh 7fccae659d9779c1919bfaf14aef6bde950bfbbd55463456e5cf3c48ad4b9e5e
+/opt/zapret/init.d/openwrt/custom.d/60-script.sh e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/opt/zapret/init.d/openwrt/custom.d/90-script.sh e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

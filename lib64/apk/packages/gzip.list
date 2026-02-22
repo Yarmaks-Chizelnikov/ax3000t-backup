@@ -1,0 +1,4 @@
+/lib/apk/packages/gzip.alternatives
+/usr/libexec/gunzip-gnu
+/usr/libexec/gzip-gnu
+/usr/libexec/zcat-gnu

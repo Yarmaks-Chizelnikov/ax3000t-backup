@@ -1,0 +1,1 @@
+300:/bin/gunzip:/usr/libexec/gunzip-gnu 300:/bin/gzip:/usr/libexec/gzip-gnu 300:/bin/zcat:/usr/libexec/zcat-gnu

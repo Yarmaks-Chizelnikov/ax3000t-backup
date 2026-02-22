@@ -1,0 +1,6 @@
+/etc/config/acme
+/etc/init.d/acme
+/etc/uci-defaults/acme
+/lib/upgrade/keep.d/acme-common
+/usr/lib/acme/functions.sh
+/usr/lib/acme/notify
